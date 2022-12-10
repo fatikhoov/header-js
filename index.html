@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico" />
+    <title>СТУДИКА</title>
+  </head>
+  <body>
+    <div id="overlay" class="overlay"></div>
+    <div class="header">
+      <div class="first-line">
+        <div class="left">
+          <div class="logo">
+            <img src="/img/Vector.svg" alt="" />
+          </div>
+          <div class="select-city">
+            <div id="select_city" class="select_city">
+              <img class="img-header" src="/img/city.svg" alt="" />
+              <span class="city">Москва</span>
+            </div>
+            <div id="city-card" class="city-card">
+              <div class="card-city-body">
+                <div class="ccb-input">
+                  <input
+                    id="input-search-city"
+                    type="text"
+                    placeholder="Регион, город, населенный пункт"
+                  />
+                  <img id="ccb-input-img" src="/img/close.svg" alt="" />
+                </div>
+                <div id="ccb-tags" class="ccb-tags"></div>
+                <hr class="hr" />
+                <div id="loader-container" class="loader-container">
+                  <span class="loader"></span>
+                </div>
+                <div id="ccb-select-city" class="ccb-select-city"></div>
+              </div>
+              <div id="card-city-btn" class="card-city-btn">
+                <button disabled="disabled">Сохранить</button>
+              </div>
+            </div>
+          </div>
+          <div class="search">
+            <img class="img-header img-ekat" src="/img/search.svg" alt="" />
+            <input
+              id=""
+              type="text"
+              class="input-search"
+              placeholder="Учебное заведение, специальность или профессия"
+            />
+          </div>
+        </div>
+        <div class="right">
+          <div class="likes">
+            <img class="img-header" src="/img/like.svg" alt="" />
+            <span class="like-text">1</span>
+          </div>
+          <div class="account">
+            <span class="account-text">Екатерина</span
+            ><img class="img-header" src="/img/avatar.png" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="second-line">
+        <div class="menu">
+          <div class="item active">Вузы</div>
+          <div class="item">Колледжи</div>
+          <div class="item">Техникумы</div>
+          <div class="item">Училища</div>
+          <div class="item">Специальности</div>
+          <div class="item">Профессии</div>
+          <div class="item">Отзывы</div>
+          <div class="item">Учебным заведениям</div>
+          <div class="item-shadow next-item">Тест на профориентацию</div>
+          <div class="img-arrow next-item">
+            <img class="img-header" src="/img/arrow right.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="areas" class="areas"></div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="/js/main.js"></script>
+  </body>
+</html>
